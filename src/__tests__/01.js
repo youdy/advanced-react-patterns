@@ -19,7 +19,7 @@ const mockUser = {username: 'jakiechan', tagline: '', bio: ''}
 
 function renderApp() {
   const utils = render(
-    <AuthProvider user={{user: mockUser}}>
+    <AuthProvider  user={{user: mockUser}}>
       <App />
     </AuthProvider>,
   )
